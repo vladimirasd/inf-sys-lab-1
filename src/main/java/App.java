@@ -1,3 +1,5 @@
+import entities.Worker; 
+
 public class App {
     public String getGreeting() {
         return "Hello world.";
@@ -5,5 +7,6 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        Worker w = new Worker();
     }
 }
